@@ -32,7 +32,7 @@
         3. Install firebase
         4. Copy code into firebaseConfig.js
         5. Set up env vars (in Vite 🙄)
-            1. [Vite Env Rules](https://vitejs.dev/guide/env-and-mode.html)
+            1. [Vite Env Rules](https://vitejs.**dev**/guide/env-and-mode.html)
     3. import {getStorage, ref} from "firebase/storage";
     4. export const storage = getStorage(firebaseApp);
 
