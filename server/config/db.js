@@ -21,5 +21,5 @@ async function connectToDB(dbURI) {
   return sequelize;
 }
 
-export const db = await connectToDB(process.env.POSTGRES_PRISMA_URL
+export const db = await connectToDB(process.env.RENDER_POSTGRES_URL
  || 'postgresql:///ratings');
