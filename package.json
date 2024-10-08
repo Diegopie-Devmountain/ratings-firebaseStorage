@@ -26,6 +26,7 @@
     "react-router-dom": "^6.14.1",
     "sequelize": "^6.32.1",
     "uuid": "^9.0.1",
+    "vercel": "^37.6.3",
     "vite-express": "^0.9.1"
   },
   "devDependencies": {
