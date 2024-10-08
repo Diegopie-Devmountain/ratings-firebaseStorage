@@ -6,7 +6,7 @@ import router from './routes/index.js';
 import 'dotenv/config.js';
 
 const app = express();
-const port = '4090';
+const port = process.env.PORT || '4090';
 ViteExpress.config({ printViteDevServerHost: true });
 
 app.use(morgan('dev'));
